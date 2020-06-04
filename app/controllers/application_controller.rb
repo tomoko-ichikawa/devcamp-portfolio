@@ -3,7 +3,6 @@ class ApplicationController < ActionController::Base
   include SetSource
   include DefaultPageContent
 
-
   # 調子が悪いので、application_controllerに記載
   # include CurrentUserConcern
 
