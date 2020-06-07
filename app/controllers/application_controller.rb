@@ -5,7 +5,6 @@ class ApplicationController < ActionController::Base
 
   # 調子が悪いので、application_controllerに記載
   # include CurrentUserConcern
-
   def current_user
     super || guest_user
   end
