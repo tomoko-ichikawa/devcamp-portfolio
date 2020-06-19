@@ -56,3 +56,4 @@ gem 'devcamp_view_tool', git: 'https://github.com/tomoko-ichikawa/devcamp_view_t
 gem 'petergate', '~> 1.6', '>= 1.6.3'
 gem "font-awesome-rails"
 gem 'kaminari'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
