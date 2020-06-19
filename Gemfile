@@ -49,6 +49,7 @@ gem 'friendly_id', '~> 5.2.4'
 gem 'devise', '~> 4.2'
 
 gem 'bootstrap', '~> 4.5.0'
+gem 'bootstrap-sass', '3.4.1'
 gem 'jquery-rails'
 
 gem 'devcamp_view_tool', git: 'https://github.com/tomoko-ichikawa/devcamp_view_tool'
