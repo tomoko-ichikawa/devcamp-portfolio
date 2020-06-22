@@ -20,3 +20,11 @@ require("custom/html.sortable")
 require('lib/following');
 require('trix');
 require('@rails/actiontext');
+
+require("jquery")
+require("jquery-ui")
+
+$(function(){
+  $('.sortable').sortable();
+});
+import "controllers"
