@@ -62,6 +62,7 @@ class PortfoliosController < ApplicationController
                                       :body, 
                                       :main_image,
                                       :thumb_image,
+                                      :position,
                                       technologies_attributes: [:name]
                                       )
   end
