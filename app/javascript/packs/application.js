@@ -18,13 +18,14 @@ require("custom/html.sortable")
 // const imagePath = (name) => images(name, true)
 
 require('lib/following');
-require('trix');
-require('@rails/actiontext');
+// require('trix');
+// require('@rails/actiontext');
 
 require("jquery")
-require("jquery-ui")
+// require("jquery-ui")
 
 $(function(){
   $('.sortable').sortable();
 });
 import "controllers"
+import "cocoon";
