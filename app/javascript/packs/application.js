@@ -24,6 +24,8 @@ require('lib/following');
 require("jquery")
 // require("jquery-ui")
 
+require("cable")
+
 $(function(){
   $('.sortable').sortable();
 });
