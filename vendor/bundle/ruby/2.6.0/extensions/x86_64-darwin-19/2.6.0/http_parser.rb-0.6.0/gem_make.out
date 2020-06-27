@@ -1,0 +1,16 @@
+current directory: /Users/ichikawatomoko/Desktop/DevcampPortfolio/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/ichikawatomoko/.rbenv/versions/2.6.4/bin/ruby -I /Users/ichikawatomoko/.rbenv/versions/2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200626-3513-2ptu6w.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ichikawatomoko/Desktop/DevcampPortfolio/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/ichikawatomoko/Desktop/DevcampPortfolio/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/ichikawatomoko/Desktop/DevcampPortfolio/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20200626-3513-1d2yn2r
