@@ -19,8 +19,8 @@ class BlogsController < ApplicationController
   def show
     if logged_in?(:site_admin) || @blog.published?
       @blog = Blog.includes(:comments).friendly.find(params[:id])
-      @comment = Comment.new
-      @page_title = @blog.title
+      @comment = current_user.comments.build
+      @comments = @blog.comments
       @seo_keywords = @blog.body
     else
       redirect_to blogs_path, notice: "You are not authorized to access this page"
@@ -90,6 +90,6 @@ class BlogsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def blog_params
-      params.require(:blog).permit(:title, :body)
+      params.require(:blog).permit(:title, :body, :topic_id)
     end
 end
