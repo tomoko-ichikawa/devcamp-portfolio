@@ -9,7 +9,7 @@
               <% if current_user && current_user.id == c.user.id %><br>
               <%= link_to "delete", blog_comments_path(blog_id: @blog, id: c.id),method: :delete ,data: { confirm: '本当に削除していいですか？' } %>
               <% end %>
-              <hr>
+              <br><br>
             </div>
           <% end %>
         </div>
