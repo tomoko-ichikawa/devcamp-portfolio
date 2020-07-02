@@ -8,9 +8,11 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-     <meta name="Keywords" content="<%= @seo_keywords %>" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
-     <%= favicon_link_tag 'favicons/favicon.ico' %>
+    <meta name="Keywords" content="<%= @seo_keywords %>" />
+
+    <%= favicon_link_tag 'favicons/favicon.ico' %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
